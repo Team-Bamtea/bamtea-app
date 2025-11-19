@@ -2,12 +2,12 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-export default function ExploreScreen() {
+export default function ProfileScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.content}>
-        <Text style={styles.title}>메뉴</Text>
-        <Text style={styles.subtitle}>메뉴 화면이 여기에 표시됩니다</Text>
+        <Text style={styles.title}>프로필</Text>
+        <Text style={styles.subtitle}>프로필 화면이 여기에 표시됩니다</Text>
       </View>
     </SafeAreaView>
   );
